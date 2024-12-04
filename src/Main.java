@@ -10,6 +10,8 @@ public class Main {
         System.out.println("Digite outro numero: ");
         double numero2 = scanner.nextDouble();
 
+        System.out.println("Escolha a operação: ");
+
 
     }
 
