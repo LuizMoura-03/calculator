@@ -11,6 +11,12 @@ public class Main {
         double numero2 = scanner.nextDouble();
 
         System.out.println("Escolha a operação: ");
+        System.out.println("1 - Adição");
+        System.out.println("2 - Subtração");
+        System.out.println("3 - Multiplicação");
+        System.out.println("4 - Divisão");
+        System.out.println("5 - Porcentagem");
+        System.out.println("6 - Resto");
 
 
     }
