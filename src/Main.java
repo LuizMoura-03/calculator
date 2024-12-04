@@ -21,9 +21,36 @@ public class Main {
 
         switch (operacao) {
             case 1:
+                System.out.println("Resultado: " + (numero1 + numero2));
+                break;
+            case 2:
+                System.out.println("Resultado: " + (numero1 - numero2));
+                break;
+            case 3:
+                System.out.println("Resultado: " + (numero1 * numero2));
+                break;
+            case 4:
+                if (numero2 != 0){
+                    System.out.println("Resultado: " + (numero1 / numero2));
+                } else {
+                    System.out.println("Erro: Divisão por zero!");
+                }
+                break;
+            case 5:
+                System.out.println("Resultado: " + (numero1 * numero2 / 100));
+                break;
+            case 6:
+                if (numero2 != 0){
+                    System.out.println("Resultado: " + (numero1 % numero2));
+                } else {
+                    System.out.println("Erro: Divisão por zero");
+                }
+                break;
+            default:
+                System.out.println("Operação Invalida");
         }
 
-
+        scanner.close();
     }
 
 }
