@@ -17,6 +17,7 @@ public class Main {
         System.out.println("4 - Divisão");
         System.out.println("5 - Porcentagem");
         System.out.println("6 - Resto");
+        int operacao = scanner.nextInt();
 
 
     }
