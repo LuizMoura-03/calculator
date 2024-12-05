@@ -20,26 +20,26 @@ public class Main {
         int operacao = scanner.nextInt(); // Ler a operação escolhida pelo utilizador.
 
         switch (operacao) {
-            case 1: // Opercão de Adição.
+            case 1: // Operacão de Adição.
                 System.out.println("Resultado: " + (numero1 + numero2));
                 break;
-            case 2:  // Opercão de Subtração.
+            case 2:  // Operacão de Subtração.
                 System.out.println("Resultado: " + (numero1 - numero2));
                 break;
-            case 3:  // Opercão de Multiplicação.
+            case 3:  // Operacão de Multiplicação.
                 System.out.println("Resultado: " + (numero1 * numero2));
                 break;
-            case 4:  // Opercão de Divisão.
+            case 4:  // Operacão de Divisão.
                 if (numero2 != 0){
                     System.out.println("Resultado: " + (numero1 / numero2));
                 } else {
                     System.out.println("Erro: Divisão por zero!");
                 }
                 break;
-            case 5:  // Opercão de Porcentagem.
+            case 5:  // Operacão de Porcentagem.
                 System.out.println("Resultado: " + (numero1 * numero2 / 100));
                 break;
-            case 6:  // Opercão de Resto.
+            case 6:  // Operacão de Resto.
                 if (numero2 != 0){
                     System.out.println("Resultado: " + (numero1 % numero2));
                 } else {
